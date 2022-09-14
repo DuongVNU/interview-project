@@ -1,0 +1,26 @@
+.footer-container {
+  padding: 0;
+  text-align: center;
+  background: #222;
+  height: 128px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+
+  .navs-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 274px;
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+}

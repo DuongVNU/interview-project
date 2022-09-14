@@ -1,0 +1,19 @@
+.food-item-container {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .food-item-text {
+      position: absolute;
+      font-size: 15px;
+      color: white;
+      text-align: center;
+      bottom: 5px;
+      padding: 2px 7px;
+      background-color: #FFCC21;;
+      left: 5px;
+      height: fit-content;
+      margin: auto;
+    }
+}

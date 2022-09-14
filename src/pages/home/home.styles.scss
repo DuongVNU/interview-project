@@ -1,0 +1,57 @@
+.home-page-container{
+  .progress-block{
+    display: flex;
+    height: 312px !important;
+
+
+    .chart-container{
+      height: 100px;
+      width: 100%;
+      canvas{
+        height: 320px !important;
+      }
+    }
+
+    .progress-container{
+      position: relative;
+      .CircularProgressbar-text {
+        fill: #ffffff;
+      }
+      .CircularProgressbar-path {
+        stroke: #ffffff;
+      }
+      .progress-bar-circle{
+        position: absolute;
+        top: 50px;
+        left: 170px;
+        width: 200px;
+      }
+    }
+  }
+  .food-block{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width:975px;
+  }
+  .meal-block{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px auto;
+  }
+  .button-home{
+    background-image: linear-gradient(32.95deg, #FFCC21 8.75%, #FF963C 86.64%);
+    box-sizing: border-box;
+    width: 296px;
+    border: none;
+    height: 56px;
+    border-radius: 6px ;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+

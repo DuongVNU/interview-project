@@ -1,0 +1,29 @@
+.record-item-container{
+  position: relative;
+  height: 240px;
+  border: 20px solid #FFCC21;
+  background-color: #282c34;
+
+  .text-area{
+    position: absolute;
+    top:80px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    .title{
+      font-size: 25px;
+      color: #FFCC21;
+      font-weight: 400;
+    }
+    .content{
+      font-size: 14px;
+      color: white;
+      background-color: #FF963C;
+      padding: 0;
+      width: 160px;
+      margin: 0 auto;
+    }
+  }
+}

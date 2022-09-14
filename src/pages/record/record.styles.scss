@@ -1,0 +1,78 @@
+.record-page-container {
+  margin: 40px auto;
+  width: 960px;
+  box-sizing: border-box;
+
+  .list-record {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .my-exercise {
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+    background-color: #414141;
+
+    .title {
+      padding: 15px;
+      display: inline-block;
+      position: relative;
+
+      span {
+        position: absolute;
+        font-size: 22px;
+        top: 20px;
+        left: 80px;
+      }
+    }
+
+    .exercise-list {
+      display: grid;
+      grid-template-columns: auto auto;
+      overflow-y: scroll;
+      height: 290px;
+
+      .exercise-item {
+        display: flex;
+        width: 85%;
+        padding: 12px;
+        justify-content: space-between;
+        border-bottom: 3px solid slategray;
+
+        .time {
+          color: #FFCC21;
+          font-size: 18px;
+        }
+
+        .calo {
+          color: #FFCC21;
+          font-size: 15px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .diary {
+    margin-top: 40px;
+
+    .title {
+      font-size: 22px;
+      text-align: left;
+    }
+
+    .diary-list {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      column-gap: 10px;
+      row-gap: 15px;
+
+      .diary-item {
+        padding: 10px;
+        border: 3px solid black;
+        text-align: left;
+      }
+    }
+  }
+}
